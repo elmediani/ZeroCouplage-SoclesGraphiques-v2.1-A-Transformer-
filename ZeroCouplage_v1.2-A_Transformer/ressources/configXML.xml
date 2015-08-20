@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+
+<config>
+
+
+	<ZcComponent XMLName="Page"  JAVAName="org.zerocouplage.component.api.page.ZCPage">
+		
+		    <property XMLName="Id" MethodName="setIdComponent"/>
+			<property XMLName="style" MethodName="setStyle"/>
+			<property XMLName="text" MethodName="setName"/> 
+			<property XMLName="title" MethodName="setTitle"/>
+			<property XMLName="FlowLayout" MethodName="setBody"/>
+			<property XMLName="GridLayout" MethodName="setBody"/>
+			<property XMLName="BorderLayout" MethodName="setBody"/>
+			
+	</ZcComponent>
+	
+
+	 
+	 	<ZcComponent XMLName="style"  JAVAName="org.zerocouplage.component.impl.style.ZCStyle">
+			<property XMLName="color" MethodName="setColor"/>
+			<property XMLName="height" MethodName="setHeight"/>
+			<property XMLName="width" MethodName="setWidth"/>
+	</ZcComponent>
+
+	<ZcComponent XMLName="FlowLayout"  JAVAName="org.zerocouplage.component.api.layout.ZCFlowLayout">
+		   <property XMLName="Id" MethodName="setIdComponent"/>
+		 <property XMLName="text" MethodName="setName"/> 
+		   <property XMLName="style" MethodName="setStyle"/>
+			<property XMLName="FlowLayout" MethodName="addComponent"/>
+			<property XMLName="GridLayout" MethodName="addComponent"/>
+			<property XMLName="BorderLayout" MethodName="addComponent"/>
+			<property XMLName="Button" MethodName="addComponent"/>
+			<property XMLName="CheckBox" MethodName="addComponent"/>
+			<property XMLName="ComboBox" MethodName="addComponent"/>
+			<property XMLName="File" MethodName="addComponent"/>
+			<property XMLName="Image" MethodName="addComponent"/>
+			<property XMLName="Label" MethodName="addComponent"/>
+			<property XMLName="Password" MethodName="addComponent"/>
+			<property XMLName="RadioButton" MethodName="addComponent"/>
+			<property XMLName="TextArea" MethodName="addComponent"/>
+			<property XMLName="TextField" MethodName="addComponent"/>
+
+	</ZcComponent>
+	
+	
+	
+	
+		<ZcComponent XMLName="GridLayout"  JAVAName="org.zerocouplage.component.api.layout.ZCGridLayout">
+		   <property XMLName="Id" MethodName="setIdComponent"/>
+		   <property XMLName="text" MethodName="setName"/> 
+		   <property XMLName="cols" MethodName="setCols"/>
+		   <property XMLName="rows" MethodName="setRows"/>
+		   <property XMLName="form" MethodName="setForm"/>
+		   <property XMLName="style" MethodName="setStyle"/>		   
+			<property XMLName="FlowLayout" MethodName="addComponent"/>
+			<property XMLName="GridLayout" MethodName="addComponent"/>
+			<property XMLName="BorderLayout" MethodName="addComponent"/>
+			<property XMLName="Button" MethodName="addComponent"/>
+			<property XMLName="CheckBox" MethodName="addComponent"/>
+			<property XMLName="ComboBox" MethodName="addComponent"/>
+			<property XMLName="File" MethodName="addComponent"/>
+			<property XMLName="Image" MethodName="addComponent"/>
+			<property XMLName="Label" MethodName="addComponent"/>
+			<property XMLName="Password" MethodName="addComponent"/>
+			<property XMLName="RadioButton" MethodName="addComponent"/>
+			<property XMLName="TextArea" MethodName="addComponent"/>
+			<property XMLName="TextField" MethodName="addComponent"/>
+	</ZcComponent>
+	
+			
+				<ZcComponent XMLName="BorderLayout"  JAVAName="org.zerocouplage.component.api.layout.ZCBorderLayout">
+		  <property XMLName="Id" MethodName="setIdComponent"/>
+		  <property XMLName="text" MethodName="setName"/> 
+		   <property XMLName="form" MethodName="setForm"/> 
+		    <property XMLName="style" MethodName="setStyle"/> 
+  <property XMLName="center" MethodName="addComponentCenter"/>
+  <property XMLName="north" MethodName="addComponentNorth"/>
+  <property XMLName="south" MethodName="addComponentSouth"/>
+  <property XMLName="east" MethodName="addComponentEast"/>
+  <property XMLName="west" MethodName="addComponentWest"/>
+	</ZcComponent>	
+	<ZcComponent XMLName="center"  JAVAName="">
+		 		 <property XMLName="FlowLayout" MethodName=""/>
+			<property XMLName="GridLayout" MethodName=""/>
+			<property XMLName="BorderLayout" MethodName="addComponent"/>
+			<property XMLName="Button" MethodName=""/>
+			<property XMLName="CheckBox" MethodName=""/>
+			<property XMLName="ComboBox" MethodName=""/>
+			<property XMLName="File" MethodName=""/>
+			<property XMLName="Image" MethodName=""/>
+			<property XMLName="Label" MethodName=""/>
+			<property XMLName="Password" MethodName=""/>
+			<property XMLName="RadioButton" MethodName=""/>
+			<property XMLName="TextArea" MethodName=""/>
+			<property XMLName="TextField" MethodName=""/>
+
+	</ZcComponent>	
+	<ZcComponent XMLName="west"  JAVAName="">
+		 		 <property XMLName="FlowLayout" MethodName=""/>
+			<property XMLName="GridLayout" MethodName=""/>
+			<property XMLName="BorderLayout" MethodName="addComponent"/>
+			<property XMLName="Button" MethodName=""/>
+			<property XMLName="CheckBox" MethodName=""/>
+			<property XMLName="ComboBox" MethodName=""/>
+			<property XMLName="File" MethodName=""/>
+			<property XMLName="Image" MethodName=""/>
+			<property XMLName="Label" MethodName=""/>
+			<property XMLName="Password" MethodName=""/>
+			<property XMLName="RadioButton" MethodName=""/>
+			<property XMLName="TextArea" MethodName=""/>
+			<property XMLName="TextField" MethodName=""/>
+
+	</ZcComponent>
+	<ZcComponent XMLName="north"  JAVAName="">
+		 		 <property XMLName="FlowLayout" MethodName=""/>
+			<property XMLName="GridLayout" MethodName=""/>
+			<property XMLName="BorderLayout" MethodName="addComponent"/>
+			<property XMLName="Button" MethodName=""/>
+			<property XMLName="CheckBox" MethodName=""/>
+			<property XMLName="ComboBox" MethodName=""/>
+			<property XMLName="File" MethodName=""/>
+			<property XMLName="Image" MethodName=""/>
+			<property XMLName="Label" MethodName=""/>
+			<property XMLName="Password" MethodName=""/>
+			<property XMLName="RadioButton" MethodName=""/>
+			<property XMLName="TextArea" MethodName=""/>
+			<property XMLName="TextField" MethodName=""/>
+
+	</ZcComponent>
+	<ZcComponent XMLName="south"  JAVAName="">
+		 		 <property XMLName="FlowLayout" MethodName=""/>
+			<property XMLName="GridLayout" MethodName=""/>
+			<property XMLName="BorderLayout" MethodName="addComponent"/>
+			<property XMLName="Button" MethodName=""/>
+			<property XMLName="CheckBox" MethodName=""/>
+			<property XMLName="ComboBox" MethodName=""/>
+			<property XMLName="File" MethodName=""/>
+			<property XMLName="Image" MethodName=""/>
+			<property XMLName="Label" MethodName=""/>
+			<property XMLName="Password" MethodName=""/>
+			<property XMLName="RadioButton" MethodName=""/>
+			<property XMLName="TextArea" MethodName=""/>
+			<property XMLName="TextField" MethodName=""/>
+
+	</ZcComponent>
+	<ZcComponent XMLName="east"  JAVAName="">
+		 		 <property XMLName="FlowLayout" MethodName=""/>
+			<property XMLName="GridLayout" MethodName=""/>
+			<property XMLName="BorderLayout" MethodName="addComponent"/>
+			<property XMLName="Button" MethodName=""/>
+			<property XMLName="CheckBox" MethodName=""/>
+			<property XMLName="ComboBox" MethodName=""/>
+			<property XMLName="File" MethodName=""/>
+			<property XMLName="Image" MethodName=""/>
+			<property XMLName="Label" MethodName=""/>
+			<property XMLName="Password" MethodName=""/>
+			<property XMLName="RadioButton" MethodName=""/>
+			<property XMLName="TextArea" MethodName=""/>
+			<property XMLName="TextField" MethodName=""/>
+
+	</ZcComponent>
+	
+	<ZcComponent XMLName="Button"  JAVAName="org.zerocouplage.component.api.component.ZCButton">
+		
+			<property XMLName="Id" MethodName="setIdComponent"/>
+			<property XMLName="style" MethodName="setStyle"/>
+		     <property XMLName="text" MethodName="setName"/> 
+			<property XMLName="action" MethodName="setAction"/>
+			<property XMLName="text" MethodName="setText"/>		
+	</ZcComponent>
+	
+
+	
+	<ZcComponent XMLName="Label"  JAVAName="org.zerocouplage.component.api.component.ZCLabel">
+		<property XMLName="Id" MethodName="setIdComponent"/>
+			<property XMLName="style" MethodName="setStyle"/>
+			<property XMLName="label" MethodName="setLabel"/>
+			
+	</ZcComponent>
+	<ZcComponent XMLName="RadioButton"  JAVAName="org.zerocouplage.component.api.component.ZCRadioButton">
+		<property XMLName="Id" MethodName="setIdComponent"/>
+			<property XMLName="style" MethodName="setStyle"/>
+			<property XMLName="text" MethodName="setName"/> 
+			<property XMLName="text" MethodName="setText"/>
+			<property XMLName="checked" MethodName="setChecked"/>
+			<property XMLName="value" MethodName="setValue"/>
+
+	</ZcComponent>
+	
+	<ZcComponent XMLName="CheckBox"  JAVAName="org.zerocouplage.component.api.component.ZCCheckBox">
+		<property XMLName="Id" MethodName="setIdComponent"/>
+			<property XMLName="style" MethodName="setStyle"/>
+			<property XMLName="text" MethodName="setName"/> 
+			<property XMLName="text" MethodName="setText"/>
+			<property XMLName="checked" MethodName="setChecked"/>
+	</ZcComponent>
+	
+	<ZcComponent XMLName="ComboBoxItem"  JAVAName="org.zerocouplage.component.api.component.ZCComboBoxItem">
+		<property XMLName="Id" MethodName="setIdComponent"/>
+			<property XMLName="style" MethodName="setStyle"/>
+			<property XMLName="value" MethodName="setValue"/>
+			
+	</ZcComponent>
+	
+	<ZcComponent XMLName="ComboBox"  JAVAName="org.zerocouplage.component.api.component.ZCComboBox">
+		<property XMLName="Id" MethodName="setIdComponent"/>
+			<property XMLName="style" MethodName="setStyle"/>
+			<property XMLName="text" MethodName="setName"/> 
+			<property XMLName="ComboBoxItem" MethodName="addComboboxItem"/>
+			
+			
+	</ZcComponent>
+	
+	<ZcComponent XMLName="TextArea"  JAVAName="org.zerocouplage.component.api.component.ZCTextArea">
+		<property XMLName="Id" MethodName="setIdComponent"/>
+			<property XMLName="style" MethodName="setStyle"/>
+			<property XMLName="text" MethodName="setName"/> 
+			<property XMLName="text" MethodName="addText"/>
+			
+	</ZcComponent>
+	
+	<ZcComponent XMLName="PassWord"  JAVAName="org.zerocouplage.component.api.component.ZCPassword">
+		<property XMLName="Id" MethodName="setIdComponent"/>
+			<property XMLName="style" MethodName="setStyle"/>
+			<property XMLName="text" MethodName="setName"/> 
+			<property XMLName="text" MethodName="addText"/>
+			<property XMLName="errorMessage" MethodName="setErrorMessage"/>
+			
+	</ZcComponent>
+	
+	<ZcComponent XMLName="TextField"  JAVAName="org.zerocouplage.component.api.component.ZCTextField">
+		<property XMLName="Id" MethodName="setIdComponent"/>
+			<property XMLName="style" MethodName="setStyle"/>
+			<property XMLName="text" MethodName="setName"/> 
+			<property XMLName="text" MethodName="addText"/>
+			<property XMLName="errorMessage" MethodName="setErrorMessage"/>
+		<property XMLName="placeHolder" MethodName="setPlaceHolder"/>
+
+	</ZcComponent>
+	
+	<ZcComponent XMLName="file"  JAVAName="org.zerocouplage.component.api.component.ZCFile">
+		<property XMLName="Id" MethodName="setIdComponent"/>
+			<property XMLName="style" MethodName="setStyle"/>
+			<property XMLName="text" MethodName="setName"/> 
+			<property XMLName="filter" MethodName="setFilter"/>
+	</ZcComponent>
+<ZcComponent XMLName="image"  JAVAName="org.zerocouplage.component.api.component.ZCImage">
+		<property XMLName="Id" MethodName="setIdComponent"/>
+			<property XMLName="style" MethodName="setStyle"/>
+			<property XMLName="alt" MethodName="setAlt"/>
+			<property XMLName="source" MethodName="setSource"/>			
+	</ZcComponent>
+	
+	<ZcComponent XMLName="Table"  JAVAName="org.zerocouplage.component.api.component.ZCTable">
+		<property XMLName="Id" MethodName="setIdComponent"/>
+			<property XMLName="style" MethodName="setStyle"/>
+			
+	</ZcComponent>
+	
+
+	
+</config>
+			
+	
+	
+		
+	
+	
+

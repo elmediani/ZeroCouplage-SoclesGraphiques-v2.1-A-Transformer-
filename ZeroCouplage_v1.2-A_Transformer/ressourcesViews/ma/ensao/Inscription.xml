@@ -1,0 +1,22 @@
+
+
+<Page name="page" text="inscription" title="Inscription">
+
+	<GridLayout name="layout" rows="4" cols="1" text="sign in">
+
+		<Label name="labelOfLogin" label="Entrer Login :">
+		</Label>
+
+
+		<Button name="valider" text="Valider" action="goTraitementInscription">
+		</Button>
+
+		<Button name="reset" text="Valider" action="goInscription">
+		</Button>
+
+	</GridLayout>
+
+</Page>
+
+
+

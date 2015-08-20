@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-collections-3.2.1-sources.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-fileupload-1.3.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jdom-2.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-coyote-7.0.37.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/velocity-1.6.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/zerocouplage-api-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/zerocouplage-common-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/zerocouplage-component-api-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/zerocouplage-component-common-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/zerocouplage-component-desktop-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/zerocouplage-component-impl-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/zerocouplage-component-web-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/zerocouplage-desktop-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/zerocouplage-impl-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/zerocouplage-validator-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/zerocouplage-web-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/zerocouplage-ZCMain-2.0.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
